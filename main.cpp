@@ -186,7 +186,7 @@ private:
 void printUsage()
 {
     std::cout << "Usage: simplestream [OPTION]... <release>...\n";
-    std::cout << "Prints the latest Ubuntu Cloud image information.\n\n";
+    std::cout << "Fetch and display the latest Ubuntu Cloud image information.\n\n";
     std::cout << "  -l, --list                  List currently supported Ubuntu releases\n";
     std::cout << "  -c, --current               Current Ubuntu LTS version\n";
     std::cout << "  -s, --sha256 <release>...   SHA256 checksum of disk1.img\n";
